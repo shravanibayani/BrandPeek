@@ -13,18 +13,28 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shravanibayani.BrandPeek",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.shravanibayani.BrandPeek"
     },
     "web": {
       "favicon": "./assets/favicon.png",
-       "bundler": "metro"
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5f792184-b8ae-445e-9e6a-0353c66a3c88"
+      }
     }
   }
 }
