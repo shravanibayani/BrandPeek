@@ -6,7 +6,7 @@ BrandPeek is a React Native app to explore popular brands and view their details
 
 1. Clone the repo and install dependencies:
 ```bash
-  git clone <repo-link>
+  git clone https://github.com/shravanibayani/BrandPeek.git
   cd BrandPeek
   npm install 
 ```
